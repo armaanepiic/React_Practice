@@ -1,15 +1,16 @@
-a:link {
-  text-decoration: none;
+table{
+    border-collapse: collapse;
 }
-
-a:visited {
-  text-decoration: none;
+th, td{
+    padding: 5px 8px;
+    text-align: center;
 }
-
-a:hover {
-  text-decoration: underline;
+tbody{
+    background-color: pink;
 }
-
-a:active {
-  text-decoration: underline;
+th{
+    background-color: cyan;
+}
+td.entity{
+    background-color: green;
 }
