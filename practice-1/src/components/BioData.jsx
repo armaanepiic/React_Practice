@@ -1,6 +1,6 @@
 const BioData = (obj) => {
   const { name, age, mobile, skills, interests } = obj;
-  console.log(obj, "ob");
+  // console.log(obj, "ob");
   return (
     <div className="biodata">
       <h1>Biodata of {name}</h1>
