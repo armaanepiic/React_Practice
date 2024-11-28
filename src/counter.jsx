@@ -4,7 +4,7 @@ export default function Counter() {
     const [count, setCount] = useState(0);
     const [message, setMessage] = useState("Welcome to the class");
     const handleClick = () => {
-        setCount(count + 1);
+        setCount((count)=> count+2);
     }
     return (
       <div>
